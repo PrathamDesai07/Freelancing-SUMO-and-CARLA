@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <net-file value="dummy.net.xml"/>
+        <route-files value="dummy.rou.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="10"/>
+    </time>
+</configuration>
