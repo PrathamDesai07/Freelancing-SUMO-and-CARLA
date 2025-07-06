@@ -1,0 +1,8 @@
+{
+  "vehicles": {
+    "private": 60,
+    "taxi": 10,
+    "bus": 30
+  },
+  "pedestrians": 50
+}

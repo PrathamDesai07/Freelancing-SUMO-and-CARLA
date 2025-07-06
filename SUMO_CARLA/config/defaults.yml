@@ -1,0 +1,37 @@
+simulation:
+  step_length: 0.1
+  duration: 60
+  route_file: sim/assets/route.rou.xml
+
+sumo_binary: "sumo"  # or "sumo-gui" if you want the GUI
+
+network:
+  lane_width: 3.5
+  lanes_per_road: 2
+
+traffic_entities:
+  vehicles: 20
+  pedestrians: 10
+  vehicle_distribution:
+    private: 60
+    taxi: 10
+    bus: 30
+  pedestrian_density: 0.05  # per m²
+  behavior_profiles:
+    aggressive:
+      speedFactor: 1.2
+      impatience: 1.0
+    normal:
+      speedFactor: 1.0
+      impatience: 0.5
+    conservative:
+      speedFactor: 0.8
+      impatience: 0.2
+
+events:
+  signal_phases: [30, 5, 45]
+  accident_chance: 0.01
+
+logging:
+  level: INFO
+  output: logs/sim_run.log

@@ -1,0 +1,12 @@
+<!-- File: sim/assets/simulation.sumocfg -->
+<configuration>
+  <input>
+    <net-file value="/teamspace/studios/this_studio/SUMO_CARLA/xodr_sumo_carla_pipeline/demo_scene.net.xml"/>
+    <route-files value="/teamspace/studios/this_studio/SUMO_CARLA/sim/assets/route.rou.xml"/>
+    <additional-files value="/teamspace/studios/this_studio/SUMO_CARLA/sim/assets/vehicle_types.xml"/>
+  </input>
+  <time>
+    <begin value="0"/>
+    <end value="100"/>
+  </time>
+</configuration>

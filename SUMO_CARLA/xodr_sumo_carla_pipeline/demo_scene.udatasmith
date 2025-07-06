@@ -1,0 +1,8 @@
+## File: demo_scene.udatasmith
+# Dummy placeholder file
+# In real use, this would be a UE4-exported .udatasmith scene
+<DUMMY>
+  <Assets>
+    <Asset name="Road"/>
+  </Assets>
+</DUMMY>

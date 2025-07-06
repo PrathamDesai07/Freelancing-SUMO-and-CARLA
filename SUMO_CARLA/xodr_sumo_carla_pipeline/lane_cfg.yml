@@ -1,0 +1,7 @@
+## File: lane_cfg.yml
+# Lane and traffic signal parameters (optional YAML input)
+default:
+  lanewidth: 3.5
+  lanes: 2
+  signal_cycle: [30, 5, 45]
+
