@@ -1,9 +1,0 @@
-carla==0.9.15
-traci==1.23.0
-numpy
-shapely
-matplotlib
-pandas
-pyyaml
-opencv-python
-flask

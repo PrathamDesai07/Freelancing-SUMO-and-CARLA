@@ -5,6 +5,15 @@ simulation:
 
 sumo_binary: "sumo"  # or "sumo-gui" if you want the GUI
 
+traffic_entities:
+  pedestrian_density: 0.5
+  vehicle_distribution:
+    private: 60
+    taxi: 10
+    bus: 30
+benchmark:
+  carla_flags: "-benchmark -fps=30"
+  sumo_step_length: 0.05   # try 0.05–0.1 until ≥20 FPS
 network:
   lane_width: 3.5
   lanes_per_road: 2
@@ -33,5 +42,8 @@ events:
   accident_chance: 0.01
 
 logging:
+  enabled: true
+  format: csv   # or csv
+  flush_steps: 50
   level: INFO
   output: logs/sim_run.log
